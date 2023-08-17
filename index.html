@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--favicon-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="imnage/x-icon"
+    />
+    <!--remix icon-->
+    <!--remix icon's credits https://remixicon.com/-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfólio - Ramon Oliveira Novaes</title>
+  </head>
+  <body>
+    <!--header profile-->
+    <header class="profile container">
+
+      <!--theme button-->
+      <i class="ri-moon-line changeTheme" id="themeButton"></i>
+
+      <div class="profileContainer grid">
+        <div class="profileData">
+          <div class="profileBorder">
+            <div class="profilePerfil">
+              <img src="./assets/img/perfil.png" alt="" />
+            </div>
+          </div>
+
+          <h2 class="profileName">Ramon O. Novaes</h2>
+          <h3 class="profileProfession">Full-Stack Developer</h3>
+
+          <ul class="profileSocial">
+            <a href="https://www.instagram.com/1ramonzera" target="_blank" class="profileSocialLink instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ramonoliveira/" target="_blank" class="profileSocialLink linkedin">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a href="https://github.com/ramonoliveira1" target="_blank" class="profileSocialLink github">
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profileInfo grid">
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">+2</h3>
+            <p class="profileInfoDescription">
+              Anos de <br />
+              experiência
+            </p>
+          </div>
+
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">+11</h3>
+            <p class="profileInfoDescription">
+              Projetos <br />
+              completos
+            </p>
+          </div>
+
+          <div class="profileInfoGroup">
+            <h3 class="profileInfoNumber">+12</h3>
+            <p class="profileInfoDescription">
+              Cerificados <br />
+              da área
+            </p>
+          </div>
+        </div>
+
+        <div class="profileButtons">
+          <a download="" href="./assets/doc/cv.pdf" class="button"
+            >Download CV <i class="ri-arrow-down-line"></i
+          ></a>
+
+          <div class="profileButtonsSmall">
+            <a href="https://wa.me/5512997253846" target="_blank" class="button buttonSmall buttonGray">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="mailto:ramon.ubt@gmail.com" target="_blank" class="button buttonSmall buttonGray">
+              <i class="ri-mail-send-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--main-->
+    <main class="main">
+      <section class="filters container">
+        <!--filters tabs-->
+        <ul class="filtersContent">
+          <button class="filtersButton filterTabActive" data-target="#projects">
+            Projects
+          </button>
+          <button class="filtersButton" data-target="#skills">Skills</button>
+        </ul>
+
+        <div class="filtersSections">
+          <!--projects-->
+          <div class="projectsContent grid filtersActive" data-content id="projects">
+            <article class="projectsCard">
+              <img src="./assets/img/comtur.png" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">PHP/WordPress</span>
+                  <h3 class="projectsTitle">Comtur Ubatuba</h3>
+                  <a href="https://comturubatuba.com.br/" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/organo.png" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">React JS</span>
+                  <h3 class="projectsTitle">Organo</h3>
+                  <a href="https://organo-ramon.vercel.app/" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projectsCard">
+              <img src="./assets/img/pokedex.png" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">HTML/CSS/JS</span>
+                  <h3 class="projectsTitle">Pokedéx</h3>
+                  <a href="https://pokedex-ochre-eight.vercel.app/" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+
+            <article class="projectsCard">
+              <img src="./assets/img/alura-midi.png" alt="" class="projectsImg" />
+
+              <div class="projectsModal">
+                <div>
+                  <span class="projectsSubtitle">Alura Midi</span>
+                  <h3 class="projectsTitle">JavaScript</h3>
+                  <a href="https://alura-midi-eta-nine.vercel.app/" class="projectsButton button buttonSmall">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+          <!--skills-->
+          <div class="skillsContent" data-content id="skills">
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+                Frontend developer
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">HTML</h3>
+                      <span class="skillsLevel">Avançado</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">CSS</h3>
+                      <span class="skillsLevel">Intermediário</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">JavaScript</h3>
+                      <span class="skillsLevel">Intermediário</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">React</h3>
+                      <span class="skillsLevel">Básico</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">Bootstrap</h3>
+                      <span class="skillsLevel">Intermediário</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">Wordpress</h3>
+                      <span class="skillsLevel">Intermediário</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+                Backend developer
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">PHP</h3>
+                      <span class="skillsLevel">Avançado</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">MySQL</h3>
+                      <span class="skillsLevel">Intermediário</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">Git</h3>
+                      <span class="skillsLevel">Avançado</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">Node Js</h3>
+                      <span class="skillsLevel">Básico</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName">Maria DB</h3>
+                      <span class="skillsLevel">Intermediário</span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!--footer-->
+    <footer class="footerContainer">
+      <span class="footerCopy">
+        &#169; Ramon Oliveira Novaes. All rigths reserved
+      </span>
+    </footer>
+    <!--scrollreveal-->
+    <script src="./assets/script/raw.githubusercontent.com_jlmakes_scrollreveal_master_dist_scrollreveal.min.js"></script>
+    <!--js-->
+    <script src="script.js"></script>
+  </body>
+</html>
